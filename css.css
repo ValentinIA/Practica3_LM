@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+    background: #1d1d1d;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.targeta{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    color: whitesmoke;
+}
+.targeta h2{
+    font-size: 22px;
+}
+
+header {
+    background-color: #181818;
+    color: white;
+    display: flex;
+    
+}
+
+/* Estilos para el logotipo */
+header img {
+    width: 180px;
+    height: 100px;
+    align-items: normal;
+
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 12px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos para los enlaces de navegación al pasar el cursor sobre ellos */
+nav a:hover {
+    text-decoration: underline;
+}
